@@ -32,7 +32,7 @@ NOTE: Possible naming schemes include:
 -   tictactoe-v1.0.0-beta.jip
 -   tictactoe-version1.jip
 -   tictactoe-version1-beta.jip
--   tictactoe-v1.0.0.jip
+-   tictactoe-v1.0.0.jip  
 i.e. there is no standard version scheme and anything after the version is not neccessary, but should be preceded by a hyphen if present
 
 Technical: The directories in your archives will be copied to /usr/local/jip/depends, /usr/local/jip/runs, and /usr/local/jip/userruns.
