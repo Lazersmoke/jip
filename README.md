@@ -18,7 +18,7 @@ For Developers and Packagers
 4.  Put all <i>Librarys</i> (.a, .so, etc) that your program depends on in that folder.
 5.  Make a Directory called "runs".
 6.  Put all <i>Programs</i> that your program depends on in that folder.
-7.  Make a Directory called "userruns".
+7.  Make a Directory called "userruns". Your Program should always include a userrun, even if its a dummy.
 6.  Put all <i>Programs</i> that a <b>typical</b> end user would run from the <b>command line</b> in that folder. I can't stress this enough.
 8.  Create a .tar.gz named "YourProgram-YourVersion-SeeNoteBelow.tar.gz" that contains depends, runs, and userruns directly under the G-zip
 7600.  Rename your .tar.gz to a .jip
