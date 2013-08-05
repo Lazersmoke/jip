@@ -3,4 +3,5 @@ tar -C /tmp/jiptemp/ -xf $1
 sudo cp /tmp/jiptemp/runs/* /usr/local/jip/runs/
 sudo cp /tmp/jiptemp/depends/* /usr/local/jip/depends/
 sudo cp /tmp/jiptemp/userruns/* /usr/local/jip/userruns/
+sudo cp /tmp/jiptemp/package-info/* /usr/local/jip/package-info/
 sudo rm /tmp/jiptemp/ -r
