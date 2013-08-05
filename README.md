@@ -24,6 +24,7 @@ For Developers and Packagers
 7.  Make a Directory called "userruns".
 6.  Put all <i>Programs</i> that a <b>typical</b> end user would run from the <b>command line</b> in that folder. I can't stress this enough.
 7.  Make a Directory called "package-info".
+8.  You can add a license named "LICENSE" here if you wish
 8.  In side "package-info" create a file that is named "YourProgram-YourVersion-SeeNoteBelow"
 9.  Within that file, the first line should be a comma separated list of all of the files that are in depends
 10.  The second line should be a comma separated list of all of the files that are in runs
