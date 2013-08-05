@@ -5,7 +5,7 @@ if [[ "$PATH" =~ "/usr/local/jip/userruns" ]]
 then
     echo "PATH already modified"
 else
-    echo "Modifying PATH...
+    echo "Modifying PATH..."
     sudo echo "export PATH=$PATH:/usr/local/jip/userruns/" >> ~/.bashrc
     echo "Done!"
 fi
