@@ -1,7 +1,7 @@
 echo "Adding jip paths in /usr/local/ ..."
 sudo mkdir -p /usr/local/jip/userruns /usr/local/jip/depends /usr/local/jip/runs
 echo "Done!"
-if [[ "$PATH" =~ "/usr/local/jip/userruns" ]]
+if [ "$PATH" =~ "/usr/local/jip/userruns" ]
 then
     echo "PATH already modified"
 else
@@ -10,7 +10,7 @@ else
     echo "Done!"
 fi
 echo "Adding Jip Directory..."
-if [[ "$JIPDIR" =~ "/usr/local/" ]]
+if [ "$JIPDIR" =~ "/usr/local/" ]
 then
     echo "JIPDIR already added, installing Jip."
 else
