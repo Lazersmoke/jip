@@ -1,4 +1,4 @@
-sudo mkdir -p /usr/local/jip/runs /usr/local/jip/depends /usr/local/jip/userruns /tmp/jiptemp/
+sudo mkdir -p /usr/local/jip/runs /usr/local/jip/depends /usr/local/jip/userruns /usr/local/jip/package-info /tmp/jiptemp/
 tar -C /tmp/jiptemp/ -xf $1
 sudo cp /tmp/jiptemp/runs/* /usr/local/jip/runs/ -r
 sudo cp /tmp/jiptemp/depends/* /usr/local/jip/depends/ -r
