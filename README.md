@@ -5,9 +5,12 @@ A miniature package manager for ease of life.
 
 For Users
 =========
-To install jip, run
+To install jip, run  
+
     sudo ./installJip
-in a terminal. When you want to install a package, use:
+
+in a terminal. When you want to install a package, use:  
+
     sudo jip pacakge_to_install.jip
 
 For Developers and Packagers
