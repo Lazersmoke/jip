@@ -17,7 +17,7 @@ then
     echo "JIPDIR already added, installing Jip."
 else
     echo "Modifying JIPDIR..."
-    sudo echo "export JIPDIR=/usr/local/jip" >> ~/.bashrc
+    sudo echo "export JIPDIR=/usr/local/jip" >> /etc/profile
     echo "Done! Intalling Jip"
 fi
 sudo cp ./jip /usr/local/jip/userruns/
