@@ -2,17 +2,17 @@ echo "Adding jip paths in /usr/local/ ..."
 sudo mkdir -p /usr/local/jip/userruns /usr/local/jip/depends /usr/local/jip/runs
 echo "Done!"
 CHECKDIRPATH="/usr/local/jip/userruns/"
-if `echo ${PATH} | grep "${CHECKDIRPATH}" 1>/dev/null 2>&1`
+if [[ -n $(echo ${PATH} | grep "${CHECKDIRPATH}") ]];
 then
     echo "PATH already modified"
 else
     echo "Modifying PATH..."
-    sudo echo "export PATH=$PATH:/usr/local/jip/userruns/" >> ~/.bashrc
+    sudo echo "export PATH=$PATH:/usr/local/jip/userruns/" >> /etc/profile
     echo "Done!"
 fi
 echo "Adding Jip Directory..."
 CHECKDIRPATH="/usr/local/jip"
-if `echo ${JIPDIR} | grep "${CHECKDIRPATH}" 1>/dev/null 2>&1`
+if [[ -n $(echo ${JIPDIR} | grep "${CHECKDIRPATH}") ]];
 then
     echo "JIPDIR already added, installing Jip."
 else
